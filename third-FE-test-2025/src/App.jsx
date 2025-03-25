@@ -14,6 +14,8 @@ function App() {
    const x = 2 +2
    console.log(x)
 
+   // test without lint
+
 
   return (
     <>
