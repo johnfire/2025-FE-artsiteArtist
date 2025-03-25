@@ -11,6 +11,9 @@ function App() {
   // and another comment for testing reasons 
   // test comment lets see what is going on here
 
+   const x = 2 +2
+   console.log(x)
+
 
   return (
     <>
