@@ -12,9 +12,8 @@ createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/displayiImages" element={<DisplayImages />} />
-        <Route path="/uploadImages" element={<LoadImages />} />
-        {/* <App /> */}
+        <Route path="/displayImages" element={<DisplayImages />} />
+        <Route path="/loadImages" element={<LoadImages />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

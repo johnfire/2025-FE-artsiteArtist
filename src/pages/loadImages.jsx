@@ -3,7 +3,7 @@ import React from "react";
 function LoadImages() {
   return (
     <>
-      <p> here is where displayed you upload images </p>
+      <p> here is where you upload images</p>
     </>
   );
 }
