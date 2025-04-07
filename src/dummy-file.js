@@ -1,5 +1,5 @@
-export function sum(a, b) {
-  return a + b
-}
+// for setting up testing and CICD
 
-// morw traselkadsjfölkasdföljkh
+export function sum(a, b) {
+  return a + b;
+}

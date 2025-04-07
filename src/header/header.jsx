@@ -3,27 +3,27 @@ import { NavLink } from "react-router";
 
 function Header() {
   return (
-    <>
-      <div style={{
-          backgroundColor: "red",  
-          height: "10vh", 
-          width: "100%",
-          position: "fixed",
-          top: "0",
-          left: "0", 
-        }}>
-        <p>Art Page Header</p>
-        <nav>
-          <NavLink to="/displayImages" end>
-            go to display images
-          </NavLink>
+    <div
+      style={{
+        backgroundColor: "rgb(75, 61, 16)",
+        height: "10vh",
+        width: "100%",
+        position: "fixed",
+        top: "0",
+        left: "0",
+      }}
+    >
+      <h3>Art Page Header</h3>
+      <nav>
+        <NavLink to="/displayImages" end>
+          Link to display all images
+        </NavLink>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <NavLink to="/loadImages" end>
-            go to load images
-          </NavLink>
-        </nav>
-      </div>
-    </>
+        <NavLink to="/loadImages" end>
+          Link to load new images
+        </NavLink>
+      </nav>
+    </div>
   );
 }
 

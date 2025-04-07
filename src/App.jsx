@@ -1,9 +1,9 @@
-import { useState } from "react";
+/* eslint-disable no-console */
 
-import React from "react";
-import Button from "@mui/material/Button";
+import React, { useState } from "react";
 import Header from "./header/header";
 import Footer from "./footer/footer";
+import BodyComp from "./bodycomps/bodycomp";
 
 import "./App.css";
 
@@ -13,20 +13,14 @@ function App() {
   return (
     <>
       <Header />
-      <h1> An Artist Website</h1>
-      <div className="card">
+      <h1> An artist website management tool</h1>
+      <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <Button
-          onClick={() => console.log("hellow im here")}
-          variant="outlined"
-          color="secondary"
-        >
-          material ui button
-        </Button>
       </div>
+      <BodyComp />
       <Footer />
     </>
   );
