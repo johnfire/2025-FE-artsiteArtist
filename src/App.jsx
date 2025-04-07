@@ -2,8 +2,8 @@ import { useState } from "react";
 
 import React from "react";
 import Button from "@mui/material/Button";
-// import { red } from "@mui/material/colors";
-import { NavLink } from "react-router";
+import Header from "./header/header";
+import Footer from "./footer/footer";
 
 import "./App.css";
 
@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+      <Header/>
       <h1> An Artist Website</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
@@ -29,16 +30,8 @@ function App() {
         >
           material ui button
         </Button>
-        <nav>
-          <NavLink to="/displayImages" end>
-            go to display images
-          </NavLink>
-          <p></p>
-          <NavLink to="/loadImages" end>
-            go to load images
-          </NavLink>
-        </nav>
       </div>
+      <Footer />
     </>
   );
 }
