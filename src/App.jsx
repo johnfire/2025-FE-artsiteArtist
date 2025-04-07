@@ -12,15 +12,11 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header />
       <h1> An Artist Website</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <button onClick={() => console.log("hellow im here")}>
-          log something
         </button>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <Button
